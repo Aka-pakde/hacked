@@ -16,12 +16,12 @@ if version != up:
 	x = raw_input("Want to update y/n: ")
 	if x == "y":
 		os.remove("hacked.py")
-		sachin = "https://raw.githubusercontent.com/Aka-pakde/hacked/master/hacked.py"
+		Aka-pakde = "https://raw.githubusercontent.com/Aka-pakde/hacked/master/hacked.py"
 		update = urllib2.urlopen(Aka-pakde).read()
 		
-		jdash = open("hacked.py", "w")
-		jdash.write(update)
-		jdash.close()
+		hacked = open("hacked.py", "w")
+		hacked.write(update)
+		hacked.close()
 
 		os.remove("version.txt")
 		ver = open("version.txt", "w")
