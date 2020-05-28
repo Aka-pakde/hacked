@@ -1,5 +1,5 @@
 #!/bin/env python2
-#code owner = "sachin"
+#code owner = "Pakde"
 #
 import urllib2
 import os
@@ -8,18 +8,18 @@ ver = open("version.txt", "r")
 version = ver.read()
 ver.close()
 
-up = urllib2.urlopen("https://raw.githubusercontent.com/sachin175638/jdash/master/version.txt").read()
+up = urllib2.urlopen("https://raw.githubusercontent.com/Aka-pakde/hacked/master/version.txt").read()
 if version != up:
 	print ""
 	print "[+] Update available"
 	print ""
 	x = raw_input("Want to update y/n: ")
 	if x == "y":
-		os.remove("jdash.py")
-		sachin = "https://raw.githubusercontent.com/sachin175638/jdash/master/jdash.py"
-		update = urllib2.urlopen(sachin).read()
+		os.remove("hacked.py")
+		sachin = "https://raw.githubusercontent.com/Aka-pakde/hacked/master/hacked.py"
+		update = urllib2.urlopen(Aka-pakde).read()
 		
-		jdash = open("jdash.py", "w")
+		jdash = open("hacked.py", "w")
 		jdash.write(update)
 		jdash.close()
 
